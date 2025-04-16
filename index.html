@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hacker News Style</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      background-color: #f6f6ef;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #ff6600;
+      padding: 4px 10px;
+      color: black;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .header a {
+      color: black;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    .container {
+      width: 85%;
+      max-width: 800px;
+      margin: auto;
+      padding-top: 10px;
+    }
+    .item {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .item a.title {
+      color: #000;
+      text-decoration: none;
+    }
+    .item .subtext {
+      font-size: 10px;
+      color: #828282;
+      margin-left: 20px;
+    }
+    .item-number {
+      color: #828282;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <span>Hacker News</span>
+    <a href="#">new</a>
+    <a href="#">past</a>
+    <a href="#">comments</a>
+    <a href="#">ask</a>
+    <a href="#">show</a>
+    <a href="#">jobs</a>
+    <a href="#">submit</a>
+    <span style="float: right;">login</span>
+  </div>
+
+  <div class="container">
+    <div class="item"><span class="item-number">1.</span><a href="#" class="title">CVE program faces swift end after DHS fails to renew contract</a><br><span class="subtext">1410 points by healdata 10 hours ago | 730 comments</span></div>
+    <div class="item"><span class="item-number">2.</span><a href="#" class="title">CVE Foundation Launched to Secure the Future of the CVE Program</a><br><span class="subtext">83 points by starterkit 1 hour ago | 15 comments</span></div>
+    <div class="item"><span class="item-number">3.</span><a href="#" class="title">European Union Vulnerability Database (EUVD)</a><br><span class="subtext">93 points by steffanhood 1 hour ago | 14 comments</span></div>
+    <div class="item"><span class="item-number">4.</span><a href="#" class="title">An Introduction to Stochastic Calculus</a><br><span class="subtext">34 points by Uruscar 1 hour ago | 12 comments</span></div>
+    <!-- 항목을 원하는 만큼 추가하면 됩니다 -->
+  </div>
+
+</body>
+</html>
